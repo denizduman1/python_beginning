@@ -8,4 +8,5 @@ print(maasAhmet - (maasAhmet*vergi))
 sayi = 2
 print(type(sayi))
 sayi = "string oldu"
+print (type(sayi))
 print(sayi)
