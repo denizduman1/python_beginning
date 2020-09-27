@@ -26,3 +26,14 @@ print("-------")
 result = str(b)+str(a)
 print(type(result))
 print(result)
+
+print("-------")
+w = int(w)
+print(type(w))
+print(w)
+
+print("-------")
+w = str(w)
+print(type(w))
+print(w)
+
