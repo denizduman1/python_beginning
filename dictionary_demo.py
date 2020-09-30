@@ -57,4 +57,9 @@ number:
 print(ogrenciler)
 print("------------")
 numara = input("aradığınız num gir: ")
-print(ogrenciler[numara])
+print("Hoşgeldiniz",ogrenciler[numara]['ad'],ogrenciler[numara]['soyad'])
+print("------------")
+numara = input("aradığınız num gir: ")
+ogrenci = ogrenciler[numara]
+print("Hoşgeldiniz",ogrenci['ad'],ogrenci['soyad'])
+
