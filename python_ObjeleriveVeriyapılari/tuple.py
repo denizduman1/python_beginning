@@ -10,3 +10,5 @@ list=[1,2]
 list_add=[3,4]
 list = list + list_add
 print(list)
+#tuplenin list'ten farkı elemanlar silinemez veya değiştirilemez
+#tuple daha az bellek harcar.
