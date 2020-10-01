@@ -10,7 +10,7 @@ sonuc = y / x
 print(sonuc)
 mod_al = (x+y+z)%3
 print("mod",mod_al)
-print(y**x)
+print(y**x) #y nin x'inci üssü 
 
 x,*y,z = numbers
 print(x,y,z)
