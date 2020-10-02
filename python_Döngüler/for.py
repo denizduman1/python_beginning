@@ -43,7 +43,7 @@ for d,val in dic.items():
     print(val)
 '''
 
-ogr_Bilgi = {
+ogr_Bilgi = {      #id si olmayan list yapacaksak {} yerine [] kullanırız.
     '1': {
      'name' :  'deniz',
      'surname' : 'duman',
