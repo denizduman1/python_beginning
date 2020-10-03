@@ -2,7 +2,7 @@ import random
 sayi = random.randint(1,100) #int sayi döndürür.
 hp = int(input("kaç can istersiniz:"))
 deger = 100 / hp
-print(sayi)
+#print(sayi)
 while hp>0:
     tahmin = int(input("tahmin et:"))
     if tahmin<sayi:
