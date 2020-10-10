@@ -90,3 +90,25 @@
 
 # for x in liste:
 #     print(x['oyuncu'])    
+
+
+# x = 0
+# sozluk= {}
+# while x<3:
+#     takim = input("takım:")
+#     oyuncu = input("oyuncu:")
+#     id = input("id:")
+#     sozluk.update({
+#         id : {
+#             'takim' : takim,
+#             'oyuncu' : oyuncu
+#         }
+#     })
+#     x += 1
+# print("------------------------------")
+# for key,val in sozluk.items():
+#     if key=='52':
+#         print("id:",key,"Takim:",val['takim'],"Oyuncu:",val['oyuncu'])
+# print("---------Yükleniyor-----------")
+# id = input("id gir:")
+# print("id si ",id, " olan takım ",sozluk[id]['takim']," oyuncusu: ",sozluk[id]['oyuncu'])
