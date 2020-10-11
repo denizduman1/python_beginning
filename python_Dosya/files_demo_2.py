@@ -69,7 +69,7 @@ while True:
         yuzBinArabaGoster()
     
     elif secim == "5":
-        arabaGuncelle()
+        # arabaGuncelle()
     
     else : 
         break
