@@ -68,8 +68,8 @@ while True:
     elif secim == "4":
         yuzBinArabaGoster()
     
-    elif secim == "5":
-        # arabaGuncelle()
+    # elif secim == "5":
+    #     # arabaGuncelle()
     
     else : 
         break
