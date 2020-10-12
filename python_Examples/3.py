@@ -86,3 +86,32 @@
 
 # print("-------")
 # print(a)
+ 
+            
+
+# def anaFonksiyon(func):
+#     print("ana fonksiyon çalıştırılıyor.")
+#     print("-----------------------------")
+#     def altFonksiyon(liste):
+#         print("alt fonksiyon çalıştırılıyor.")
+#         print("-----------------------------")
+#         func(liste)
+#         print("-----------------------------")
+#     return altFonksiyon   
+        
+
+# @anaFonksiyon
+# def tekSayilariCikart(liste):
+#     for x in liste:
+#         if(x%2==1):
+#             print("tek sayilar: ", x , end=" ") 
+#     print() 
+# @anaFonksiyon
+# def ciftSayilariCikart(liste):
+#     for x in liste:
+#         if(x%2==0):
+#             print("çift sayilar: ", x , end=" ")     
+#     print()        
+# liste = [0,7,5,1,3,11,33,77,95,47,2,8,40]
+# tekSayilariCikart(liste)
+# ciftSayilariCikart(liste)
