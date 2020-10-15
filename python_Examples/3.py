@@ -115,3 +115,12 @@
 # liste = [0,7,5,1,3,11,33,77,95,47,2,8,40]
 # tekSayilariCikart(liste)
 # ciftSayilariCikart(liste)
+
+# def func():
+#     print("1,2,3,4,5")
+#     return "burakenestahsin"
+
+# a = func()
+# print(a)
+
+# func()
