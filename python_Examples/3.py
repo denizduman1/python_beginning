@@ -124,3 +124,19 @@
 # print(a)
 
 # func()
+
+# class Urun: 
+#     ucret = 0
+#     def __init__(self):
+#         self.__fiyat = 10
+#     def display(self):
+#         print("Fiyat = ",self.__fiyat)
+#     def degistir(self,fiyat):
+#         self.__fiyat = fiyat
+    
+# u1 = Urun()
+# u1.display()
+# u1.degistir(25)
+# u1.__fiyat = 15
+# u1.display()
+# print(u1.__fiyat)
