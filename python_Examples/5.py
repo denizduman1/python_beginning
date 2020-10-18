@@ -45,15 +45,34 @@
 # else: 
 #     print("Sayınız Mükemmel Sayı Değildir.")
 
-bas_sayi = int(input("başlangıç sayı Gir = "))
-son_sayi = int(input("son sayı Gir = "))
+# bas_sayi = int(input("başlangıç sayı Gir = "))
+# son_sayi = int(input("son sayı Gir = "))
 
-for i in range(bas_sayi,son_sayi):
-    j = 1
-    toplam = 0
-    while j < i :
-        if(i%j==0):  
-            toplam = toplam + j
-        j = j + 1
-    if(toplam == i):
-        print(i,end=" ")
+# for i in range(bas_sayi,son_sayi):
+#     j = 1
+#     toplam = 0
+#     while j < i :
+#         if(i%j==0):  
+#             toplam = toplam + j
+#         j = j + 1
+#     if(toplam == i):
+#         print(i,end=" ")
+
+# liste = []
+# sayi = int(input("Sayi = "))
+# i = 1
+# while True:
+#     i = i * 10
+#     a = sayi % (i) 
+#     if (a>0):
+#         liste.append((a//(i//10)))
+#     else:
+#         break
+#     sayi = sayi - a 
+
+# liste.reverse()
+# toplam = 0
+# print(liste)
+# for i in liste:
+#     toplam = toplam +  (i ** (len(liste)))
+# print(toplam)
